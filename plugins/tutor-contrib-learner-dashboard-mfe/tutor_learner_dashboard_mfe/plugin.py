@@ -19,7 +19,7 @@ port = 1996
 def _add_my_mfe(mfes):
     mfes["learner-dashboard"] = {
         "repository": "https://github.com/Abstract-Tech/community-theme-learner-dashboard",
-        "version": "open-release/palm.1",
+        "version": "community-theme.palm",
         "refs": "https://api.github.com/repos/abstract-tech/community-theme-learner-dashboard/git/refs/heads",
         "port":1996,
     }
