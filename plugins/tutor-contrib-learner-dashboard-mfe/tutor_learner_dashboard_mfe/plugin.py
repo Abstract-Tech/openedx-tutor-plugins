@@ -18,8 +18,10 @@ port = 1996
 @MFE_APPS.add()
 def _add_my_mfe(mfes):
     mfes["learner-dashboard"] = {
-        "repository": "https://github.com/openedx/frontend-app-learner-dashboard",
-        "port": port,
+        "repository": "https://github.com/Abstract-Tech/community-theme-learner-dashboard",
+        "version": "open-release/palm.1",
+        "refs": "https://api.github.com/repos/abstract-tech/community-theme-learner-dashboard/git/refs/heads",
+        "port":1996,
     }
     return mfes
 
